@@ -1,0 +1,54 @@
+.box-carte {
+    background: rgba(128, 128, 128, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 9px 1px rgb(0 0 0 / 20%);
+    height: auto;
+    color: white;
+    width: 45%;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0%;
+    text-transform: uppercase;
+    color: rgb(155, 23, 32)
+}
+
+.id {
+    color: white;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.no-margin {
+    margin: 0%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.ingrediants {
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+}

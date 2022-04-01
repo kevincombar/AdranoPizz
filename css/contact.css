@@ -1,0 +1,16 @@
+h2, h3, h4, p {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#tel {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#tel:hover {
+    color: blue;
+    text-shadow: none;
+}

@@ -1,0 +1,53 @@
+@media (min-width: 992px) {
+    .buildingicon {
+        position: absolute;
+        top: 310px;
+        left: 360px;
+        transform: rotate(-20deg);
+        color: white;
+    }
+
+    .textRotate {
+        position: absolute;
+        top: 360px;
+        left: 180px;
+        transform: rotate(-20deg);
+        color: white;
+        font-size: 18px;
+        text-shadow: 2px 2px black;
+    }
+
+    .drinkicon {
+        position: absolute;
+        top: 300px;
+        left: 1050px;
+        transform: rotate(20deg);
+        color: white;
+    }
+
+    .textRotate2 {
+        position: absolute;
+        top: 360px;
+        left: 780px;
+        transform: rotate(17deg);
+        color: white;
+        font-size: 18px;
+        text-shadow: 2px 2px black;
+    }
+
+    .cardicon {
+        position: absolute;
+        top: 450px;;
+        left: 735px;
+        color: white;
+    }
+
+    .textRotate3 {
+        position: absolute;
+        top: 500px;
+        left: 500px;
+        color: white;
+        font-size: 22px;
+        text-shadow: 2px 2px black;
+    }
+}

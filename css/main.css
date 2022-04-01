@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto,sans-serif;
+    overflow-x: hidden;
+    background-image: url('https://st2.depositphotos.com/2899123/6662/v/950/depositphotos_66627491-stock-illustration-seamless-pizza-pattern.jpg');
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: white;
+    margin-top: 45px;
+    font-weight: 100;
+    font-size: 50px;
+    text-shadow: 3px 2px black;
+}
+
+.btn-primary {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.btn-green {
+    background: green;
+    border: green;
+}
+
+.btn-green:hover {
+    background: rgb(10, 84, 10);
+    border: rgb(10, 84, 10);
+}
+
+.btn-red {
+    background: rgb(255, 0, 0);
+    border: rgb(255, 0, 0);
+}
+
+.btn-red:hover {
+    background: rgb(174, 12, 12);
+    border: rgb(174, 12, 12);
+}
+
+@media (min-width: 992px) {
+    .textRotate {
+        position: absolute;
+        top: 360px;
+        left: 180px;
+        transform: rotate(-15deg);
+        color: white;
+        font-size: 18px;
+        text-shadow: 2px 2px black;
+    }
+
+    .arrowicon {
+        position: absolute;
+        top: 370px;
+        left: 440px;
+        transform: rotate(-180deg);
+        color: white;
+    }
+}
+
+.legal {
+    color: white;
+    text-decoration: none;
+}
+
+.legal:hover {
+    color: blue;
+}

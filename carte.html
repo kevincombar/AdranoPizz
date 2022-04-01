@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/carte.css">
+
+    <title>Carte - AdranoPizz</title>
+    <meta name="description" content="Pizzeria AdranoPizz Talange">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand navbar-light" style="background-color: rgb(242,242,242); height:68px;">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="Logo AdranoPizz" width="75px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse space" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./carte.html">Pizza - Pasta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./offres.html">Offres</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Horaires & Contact</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-6 box-carte">
+          <h2>Pizzas</h2>
+          <h3>33cm, base tomate</h3>
+          <ul class="list-unstyled">
+            <li>
+                <h4><span class="id">01</span> Margherita</h4>
+                <p class="ingrediants no-margin">Sauce tomate, mozzarella, basilic</p>
+                <p class="price">6,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">02</span> Roma</h4>
+                <p class="ingrediants no-margin">Mozzarella, jambon</p>
+                <p class="price">8,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">03</span> Regina</h4>
+                <p class="ingrediants no-margin">Mozzarella, jambon, champignons frais</p>
+                <p class="price">9,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">04</span> Salami</h4>
+                <p class="ingrediants no-margin">Mozzarella, salami, poivrons frais, olives</p>
+                <p class="price">9,70€</p>
+            </li>
+            <li>
+                <h4><span class="id">05</span> Volcano (chausson)</h4>
+                <p class="ingrediants no-margin">Mozzarella, jambon, jaune d'oeuf, crème</p>
+                <p class="price">10,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">06</span> 4 Fromages</h4>
+                <p class="ingrediants no-margin">Mozzarella, emmental, chèvre, gorgonzola, parmesan, crème</p>
+                <p class="price">10,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">07</span> Gorgonzola</h4>
+                <p class="ingrediants no-margin">Mozzarella, gorgonzola, jambon de parme</p>
+                <p class="price">10,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">08</span> Orientale</h4>
+                <p class="ingrediants no-margin">Mozzarella, merguez, poivrons frais, oignons</p>
+                <p class="price">9,60€</p>
+            </li>
+            <li>
+                <h4><span class="id">09</span> Végétarienne</h4>
+                <p class="ingrediants no-margin">Mozzarella, oignons, champignons frais, poivrons, artichauts, aubergines, tomates, olives</p>
+                <p class="price">9,70€</p>
+            </li>
+            <li>
+                <h4><span class="id">10</span> 4 Saisons</h4>
+                <p class="ingrediants no-margin">Mozzarella, jambon, champignons, poivrons, artichauts, aubergines, oignons</p>
+                <p class="price">9,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">11</span> Barese</h4>
+                <p class="ingrediants no-margin">Mozzarella, chorizo, tomates fraîches, poivrons, oignons</p>
+                <p class="price">9,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">12</span> Napolitaine</h4>
+                <p class="ingrediants no-margin">Mozzarella, câpres, anchois, poivrons, olives</p>
+                <p class="price">9,60€</p>
+            </li>
+            <li>
+                <h4><span class="id">13</span> Bolognaise</h4>
+                <p class="ingrediants no-margin">Bolognaise, mozzarella, parmesan</p>
+                <p class="price">9,70€</p>
+            </li>
+            <li>
+                <h4><span class="id">14</span> Poulet Curry</h4>
+                <p class="ingrediants no-margin">Mozzarella, poulet rôti, curry, crème</p>
+                <p class="price">9,80€</p>
+            </li>
+            <li>
+                <h4><span class="id">15</span> Charcutière</h4>
+                <p class="ingrediants no-margin">Mozzarella, salami, chorizo, jambon blanc, bresaola</p>
+                <p class="price">9,80€</p>
+            </li>
+            <li>
+                <h4><span class="id">16</span> Al Tonno</h4>
+                <p class="ingrediants no-margin">Mozzarella, thon, tomates fraîches, oignons, crème</p>
+                <p class="price">9,80€</p>
+            </li>
+            <li>
+                <h4><span class="id">17</span> Paysanne</h4>
+                <p class="ingrediants no-margin">Mozzarella, jambon, champignons, lardons, crème</p>
+                <p class="price">9,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">18</span> Fruits de mer</h4>
+                <p class="ingrediants no-margin">Mozzarella, persillade, st-jacques, crevettes, moules, calamars</p>
+                <p class="price">11,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">19</span> Polpette</h4>
+                <p class="ingrediants no-margin">Mozzarella, polpettes de boeuf, oeuf, oignons</p>
+                <p class="price">10,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">20</span> Escargots</h4>
+                <p class="ingrediants no-margin">Mozzarella, escargots, champignons, persillade</p>
+                <p class="price">10,90€</p>
+            </li>
+            <li>
+                <h4><span class="id">21</span> Parme</h4>
+                <p class="ingrediants no-margin">Mozzarella, roquette, jambon de parme, copeaux de parmesan, tomates cerises, huile d'olive</p>
+                <p class="price">11,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">22</span> Buffala</h4>
+                <p class="ingrediants no-margin">Mozzarella di buffala, tomates, basilic frais</p>
+                <p class="price">10,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">23</span> Sicilienne</h4>
+                <p class="ingrediants no-margin">Mozzarella, saucisses siciliennes, courgettes, aubergines, oignons, poivrons</p>
+                <p class="price">11,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">24</span> Forestière</h4>
+                <p class="ingrediants no-margin">Mozzarella, mélange de champignons, cèpes, persillade, crème</p>
+                <p class="price">10,50€</p>
+            </li>
+            <li>
+                <h4><span class="id">25</span> Chèvre Miel</h4>
+                <p class="ingrediants no-margin">Mozzarella, chèvre, miel</p>
+                <p class="price">10,20€</p>
+            </li>
+            <li>
+                <h4><span class="id">26</span> Savoyarde</h4>
+                <p class="ingrediants no-margin">Mozzarella, pomme de terre, lardons, oignons, reblochon, crème</p>
+                <p class="price">10,90€</p>
+            </li>
+            <li>
+                <h4>Ingrédient en supplément</h4>
+                <p class="price">1,00€</p>
+            </li>
+          </ul>
+            </div>
+            <div class="col-6 box-carte">
+                <h2>Pizzas</h2>
+                <h3>33cm, base crème</h3>
+                <ul class="list-unstyled">
+                <li>
+                    <h4><span class="id">27</span> Flammekueche</h4>
+                    <p class="ingrediants no-margin">Lardons, oignons</p>
+                    <p class="price">8,90€</p>
+                </li>
+                <li>
+                    <h4><span class="id">28</span> Flamme Forestière</h4>
+                    <p class="ingrediants no-margin">Mozzarella, lardons, champignons, oignons</p>
+                    <p class="price">9,90€</p>
+                </li>
+                <li>
+                    <h4><span class="id">29</span> Flamme Munster</h4>
+                    <p class="ingrediants no-margin">Munster, lardons, oignons</p>
+                    <p class="price">9,90€</p>
+                </li>
+                <li>
+                    <h4><span class="id">30</span> Salmone</h4>
+                    <p class="ingrediants no-margin">Mozzarella, saumon fumé, câpres, oignons</p>
+                    <p class="price">11,90€</p>
+                </li>
+                <li>
+                    <h4><span class="id">31</span> Adrano</h4>
+                    <p class="ingrediants no-margin">Pistaches fraîches, jambon de parme, copeaux de parmesan, huile d'olive</p>
+                    <p class="price">11,90€</p>
+                </li>
+                <li>
+                    <h4>Ingrédient en supplément</h4>
+                    <p class="price">1,00€</p>
+                </li>
+                </ul>
+
+                <h2>Pâtes</h2>
+                <h3>Pennes, Tagliatelles ou Gnocchis</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Carbonara</h4>
+                        <p class="ingrediants no-margin">Oeuf, lardons, crème</p>
+                        <p class="price">8,90€</p>
+                    </li>
+                    <li>
+                        <h4>Bolognaise</h4>
+                        <p class="ingrediants no-margin">Sauce bolognaise, viande hachée, parmesan</p>
+                        <p class="price">8,90€</p>
+                    </li>
+                    <li>
+                        <h4>Pesto</h4>
+                        <p class="ingrediants no-margin">Basilic, pignons de pin, parmesan, huile d'olive</p>
+                        <p class="price">9,50€</p>
+                    </li>
+                    <li>
+                        <h4>4 Fromages</h4>
+                        <p class="price">9,90€</p>
+                    </li>
+                    <li>
+                        <h4>Sauce crème au saumon fumé</h4>
+                        <p class="price">10,50€</p>
+                    </li>
+                </ul>
+
+                <h2>Spécialités italiennes</h2>
+                <h3>"MAISON"</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Lasagnes</h4>
+                        <p class="ingrediants no-margin">(Environ 550 grammes) sauce bolognaise, parmesan</p>
+                        <p class="price">9,90€</p>
+                    </li>
+                    <li>
+                        <h4>Arancini</h4>
+                        <p class="ingrediants no-margin">Bolognaise ou 4 fromages</p>
+                        <p class="price">1 pièce : 4,20€ - 3 pièces : 12,00€</p>
+                    </li>
+                    <li>
+                        <h4>Polpettes de boeuf</h4>
+                        <p class="ingrediants no-margin">Boeuf en sauce, parmesan, services avec des pâtes</p>
+                        <p class="price">10,50€</p>
+                    </li>
+                </ul>
+
+                <h2>Belles salades</h2>
+                <h3>Nouvelles compositions</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Cesar</h4>
+                        <p class="ingrediants no-margin">Filets de poulet, copeaux de parmesan, tomates, croûtons, sauce césar</p>
+                        <p class="price">8,20€</p>
+                    </li>
+                    <li>
+                        <h4>Chèvre</h4>
+                        <p class="ingrediants no-margin">8 toasts de chèvre, tomates, olives, oeuf dur, croûtons de pain</p>
+                        <p class="price">8,20€</p>
+                    </li>
+                    <li>
+                        <h4>Poulet aux agrumes</h4>
+                        <p class="ingrediants no-margin">Filets de poulet, concombre, haricots verts, quartiers de pamplemousse</p>
+                        <p class="price">8,20€</p>
+                    </li>
+                    <li>
+                        <h4>Saumon</h4>
+                        <p class="ingrediants no-margin">Tomates, saumon fumé, oignons, pomme de terre charlotte, crème fraîche</p>
+                        <p class="price">8,90€</p>
+                    </li>
+                    <li>
+                        <h4>Paysanne</h4>
+                        <p class="ingrediants no-margin">Saucisse à cuire, lardons, pommes sautées, croûtons, crème</p>
+                        <p class="price">8,20€</p>
+                    </li>
+                    <li>
+                        <h4>Salade italienne</h4>
+                        <p class="ingrediants no-margin">Mozzarella buffala, jambon de parme, tomates, olives, artichauts marinés</p>
+                        <p class="price">8,20€</p>
+                    </li>
+                    <li>
+                        <h4>Salade verte</h4>
+                        <p class="ingrediants no-margin">Salade, tomates cerises, oignons</p>
+                        <p class="price">2,O0€</p>
+                    </li>
+                </ul>
+                <h2>Menu Bambino</h2>
+                <h3>Pour les petits !</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>1 Petite Pizza + 1 Boisson + 1 Kinder</h4>
+                        <p class="ingrediants no-margin">Reine, Roma ou Margherita uniquement</p>
+                        <p class="price">6,20€</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 box-carte">
+                <h2>Desserts</h2>
+                <h3>"MAISON"</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Tiramisu Classique</h4>
+                        <p class="price">4,20€</p>
+                    </li>
+                    <li>
+                        <h4>Tiramisu Speculoos</h4>
+                        <p class="price">4,20€</p>
+                    </li>
+                    <li>
+                        <h4>Mousse au chocolat</h4>
+                        <p class="price">4,20€</p>
+                    </li>
+                    <li>
+                        <h4>Panna Cotta</h4>
+                        <p class="price">4,20€</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 box-carte">
+                <h2>Boissons</h2>
+                <h3>Entre deux bouchées de pizza !</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Eau 50cl</h4>
+                        <p class="price">0,70€</p>
+                    </li>
+                    <li>
+                        <h4>Soda 33cl</h4>
+                        <p class="price">1,80€</p>
+                    </li>
+                    <li>
+                        <h4>Coca-Cola 1,25L</h4>
+                        <p class="price">4,50€</p>
+                    </li>
+                    <li>
+                        <h4>Desperados 33cl</h4>
+                        <p class="price">2,90€</p>
+                    </li>
+                    <li>
+                        <h4>Kronenbourg 33cl</h4>
+                        <p class="price">2,20€</p>
+                    </li>
+                    <li>
+                        <h4>Colomba - Bière Blanche 33cl</h4>
+                        <p class="price">3,90€</p>
+                    </li>
+                    <li>
+                        <h4>Grimbergen Rouge 33cl</h4>
+                        <p class="price">3,50€</p>
+                    </li>
+                    <li>
+                        <h4>Poretti 33cl</h4>
+                        <p class="price">2,90€</p>
+                    </li>
+                    <li>
+                        <h4>Red Bull 25cl</h4>
+                        <p class="price">3,90€</p>
+                    </li>
+                    <li>
+                        <h4>Jus de fruit Minute Maid 25cl</h4>
+                        <p class="price">1,80€</p>
+                    </li>
+                    <li>
+                        <h4>Vin rouge ou rosé Bouteille 75cl</h4>
+                        <p class="price">6,90€</p>
+                    </li>
+                    <li>
+                        <h4>Vin rosé Bardolino bouteille 75cl</h4>
+                        <p class="price">9,50€</p>
+                    </li>
+                    <li>
+                        <h4>Vin Lambrusco Rouge, Rosé</h4>
+                        <p class="price">9,50€</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col mt-5 text-center">
+              <img src="./img/mastercard.svg" alt="Mastercard" width="32px">
+              <img src="./img/visa.svg" alt="Visa" width="32px">
+              <img src="./img/chequedej.png" alt="Chèque Déjeuner" width="32px">
+              <img src="./img/ticketrestaurant.png" alt="Ticket Restaurant" width="32px"><br>
+              <a class="legal" href="./legal.html">Mentions légales</a>
+            </div>
+          </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
